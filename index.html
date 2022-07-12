@@ -5,13 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1{color:blue}
+    </style>
+  
 </head>
 <body>
-    <h1>이력서</h1>
+    <h1 id="aa">풀스텍 개발자 이재경</h1>
+    <p>관심분야 또는 기술:React</p>
+    <div>AI 트랙에서 가장 기대되는 점:알고리즘</div>
+    <div>동료 레이서에게 하고 싶은 말: 화이팅!</div>
+    <div>취미:등산<br><img src="https://images.unsplash.com/photo-1586627161720-ee2849303aee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt=""></div>
     
 
 
+    <script>
+//         document.getElementById('aa').animate([
+//   // keyframes
+//   { transform: 'translateY(0px)' }, 
+//   { transform: 'translateY(-300px)' }
+// ], { 
+//   // timing options
+//   duration: 1000,
+//   iterations: Infinity
+// });
 
+document.getElementById('aa').animate([
+  // keyframes
+  { transform: 'translateX(0px)' }, 
+  { transform: 'translateX(50px)' }
+], { 
+  // timing options
+  duration: 1000,
+  iterations: Infinity
+});
+
+
+    </script>
 
 </body>
 </html>
